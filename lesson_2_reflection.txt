@@ -11,6 +11,15 @@
 How is the staging area different from the working directory and the 
    repository? What value do you think it offers?
 
+	The staging area related to the git repository, which makes it 
+	different from the working directory, which is independent of git.
+
+	The staging area is only a preliminary part of git, however. It holds 
+	the file before any commits have been made. This allows us to combine
+	several related files together within git.
+
+	This change is for testing a commit.
+
 How can you use the staging area to make sure you have one commit per logical
    change?
 
