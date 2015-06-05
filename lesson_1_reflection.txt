@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Used FC with DOS command prompt on my Windows machine.
+    Using the program to find differenced made the task much faster and less tedious.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Great backup. Prevents loss of work. Makes things easy when changes 
+       need to be reversed. Clients frequently change their minds.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The automatic commit eliminates problems when programmers forget to backup.
+       However, code saved automatically may not be useful. For example, 
+       it could include incomplete lines or code that will not compile for
+       reasons.
+    The manual option allows saving at the best time, when additions
+       and changes are complete. This makes the backups more useful.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Programming applications often include various files that are interdependent.
+       For example, code in one file might contain code that uses a function
+       stored in another file. Saving multiple files at once allows coordination
+       of such interdependent files. Otherwise it may be difficult to determine
+       which version of each different files will work together.
+    Treating files separately is more useful for information contained in 
+       files that do not have such types of interdependence.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log displays the list of commits or versions of the application 
+        starting with the most recent.
+    git diff hightlights changes made to the files between designated commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control makes it easier and faster to find coding errors by
+        keeping copies from differents points in time.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Project from my Android Developer course.
