@@ -53,3 +53,16 @@ What is the result of merging two branches together? Why do we represent it
 
 What are the pros and cons of Git’s automatic merging vs. always doing 
   merges manually?
+
+	Issues may arise in merges when conflicting code has been entered
+	in files by different programmers. These conflicts must be resolved 
+	in order to merge branches successfully. Automatic merges run the risk
+	of generating conflicting code.
+
+	One advantage of automatic merging with git is that the program will 
+	identify all potential conflicts. Manual methods may result in 
+	overlooking some conflicts. However, it seems confusing to resolve
+	conflicts with the git generated files.
+
+	It would seem best to avoid conflicting code as much as possible
+	by organizing programming efforts.
