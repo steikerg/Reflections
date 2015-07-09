@@ -69,4 +69,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Branches are useful in a number of situations. They can be used to try out 
+    coding ideas without disturbing master branch code. Or a branch may be useful
+    for creating a different version of an application. Collaboration is a third
+    reason for using branches. In the case of collaboration, branches are 
+    essential to resolve conflicting changes made by different people.
